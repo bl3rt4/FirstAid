@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04715812B8E021E00408A7B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04715802B8E021E00408A7B /* SignupViewController.swift */; };
+		D04715832B8E029800408A7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04715822B8E029800408A7B /* LoginViewController.swift */; };
 		D0C8B3BF2B8DE25800C6AE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B3BE2B8DE25800C6AE30 /* AppDelegate.swift */; };
 		D0C8B3C12B8DE25800C6AE30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B3C02B8DE25800C6AE30 /* SceneDelegate.swift */; };
 		D0C8B3C32B8DE25800C6AE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B3C22B8DE25800C6AE30 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D04715802B8E021E00408A7B /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D04715822B8E029800408A7B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D0C8B3BB2B8DE25800C6AE30 /* FirstAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C8B3BE2B8DE25800C6AE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C8B3C02B8DE25800C6AE30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				D0C8B3C02B8DE25800C6AE30 /* SceneDelegate.swift */,
 				D0C8B3C22B8DE25800C6AE30 /* ViewController.swift */,
 				D0C8B3C42B8DE25800C6AE30 /* Main.storyboard */,
+				D04715822B8E029800408A7B /* LoginViewController.swift */,
+				D04715802B8E021E00408A7B /* SignupViewController.swift */,
 				D0C8B3C72B8DE26700C6AE30 /* Assets.xcassets */,
 				D0C8B3C92B8DE26700C6AE30 /* LaunchScreen.storyboard */,
 				D0C8B3CC2B8DE26700C6AE30 /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				D0C8B3C32B8DE25800C6AE30 /* ViewController.swift in Sources */,
 				D0C8B3BF2B8DE25800C6AE30 /* AppDelegate.swift in Sources */,
+				D04715812B8E021E00408A7B /* SignupViewController.swift in Sources */,
+				D04715832B8E029800408A7B /* LoginViewController.swift in Sources */,
 				D0C8B3C12B8DE25800C6AE30 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
