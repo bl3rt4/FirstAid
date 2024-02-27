@@ -41,12 +41,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a7R-Ll-0SA">
-                                <rect key="frame" x="20" y="408" width="341" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3ax-9b-vHl">
                                 <rect key="frame" x="71" y="581" width="229" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -56,6 +50,10 @@
                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginClicked:" destination="lxQ-Mk-l6H" eventType="touchUpInside" id="BsG-Mp-Jlf"/>
+                                    <segue destination="qcT-PZ-Yzw" kind="show" id="qPi-kx-eyW"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Not a Member ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Rg-7C-Edg">
                                 <rect key="frame" x="71" y="661" width="122" height="21"/>
@@ -72,9 +70,16 @@
                                     <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="signupClicked:" destination="lxQ-Mk-l6H" eventType="touchUpInside" id="eEA-xz-dqL"/>
                                     <segue destination="7ak-ac-tmI" kind="show" id="IhV-pu-F4g"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a7R-Ll-0SA">
+                                <rect key="frame" x="15" y="408" width="341" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="yFZ-nB-019"/>
@@ -82,6 +87,10 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="VmW-BX-ufm"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="a7R-Ll-0SA" id="FGP-UZ-g13"/>
+                        <outlet property="passwordTextField" destination="Shr-15-r6u" id="ujp-1c-CEk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hUO-5k-MdV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -90,7 +99,6 @@
         <!--Signup View Controller-->
         <scene sceneID="Iqd-zC-Crb">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Su3-xf-xPB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="7ak-ac-tmI" customClass="SignupViewController" customModule="FirstAid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1oz-lp-C7D">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -168,6 +176,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="LogIn"/>
                                 <connections>
+                                    <action selector="loginClicked:" destination="7ak-ac-tmI" eventType="touchUpInside" id="raS-8g-NRl"/>
                                     <segue destination="lxQ-Mk-l6H" kind="show" id="8fg-Dp-Z4q"/>
                                 </connections>
                             </button>
@@ -178,21 +187,65 @@
                                 <state key="normal" title="SignUp">
                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="signupClicked:" destination="7ak-ac-tmI" eventType="touchUpInside" id="Aqh-Qq-ATd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Snv-4Z-ZPj">
+                                <rect key="frame" x="19" y="59" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <action selector="backClicked:" destination="7ak-ac-tmI" eventType="touchUpInside" id="uF4-sT-sbj"/>
+                                    <segue destination="lxQ-Mk-l6H" kind="show" id="hvp-mu-XQ4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ofz-MT-Ajs"/>
                     </view>
                     <navigationItem key="navigationItem" id="4n8-3R-z7m"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="Ek6-RS-Rw1" id="v8i-Qe-xkK"/>
+                        <outlet property="firstNameTextField" destination="GmZ-lY-iqU" id="oaW-OP-EgC"/>
+                        <outlet property="lastNameTextField" destination="hwL-e2-QeV" id="tQ6-2s-lhb"/>
+                        <outlet property="passwordTextField" destination="XAt-6H-R0U" id="ana-kr-756"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Su3-xf-xPB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="582.60869565217399" y="103.79464285714285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Xws-pn-hki">
+            <objects>
+                <viewController id="qcT-PZ-Yzw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Fw-gE-14Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LIST VIEW" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2g-ke-WIQ">
+                                <rect key="frame" x="133" y="237" width="178" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pEc-oJ-Vdy"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rb4-tA-QBH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u0b-Qb-kl6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1305.7971014492755" y="115.84821428571428"/>
         </scene>
     </scenes>
     <resources>
         <image name="person" catalog="system" width="64" height="58"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="IhV-pu-F4g"/>
+        <segue reference="8fg-Dp-Z4q"/>
     </inferredMetricsTieBreakers>
 </document>
