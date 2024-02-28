@@ -14,6 +14,7 @@
 		D0A3C0502B8F85E400F88F6E /* PajisjetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3C04F2B8F85E400F88F6E /* PajisjetViewController.swift */; };
 		D0A3C0562B8FAC9400F88F6E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3C0552B8FAC9400F88F6E /* CustomTableViewCell.swift */; };
 		D0A3C05A2B8FBAFF00F88F6E /* LendimetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3C0592B8FBAFF00F88F6E /* LendimetViewController.swift */; };
+		D0A3C05C2B8FD0AE00F88F6E /* InstruksionetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3C05B2B8FD0AE00F88F6E /* InstruksionetViewController.swift */; };
 		D0C8B3BF2B8DE25800C6AE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B3BE2B8DE25800C6AE30 /* AppDelegate.swift */; };
 		D0C8B3C12B8DE25800C6AE30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B3C02B8DE25800C6AE30 /* SceneDelegate.swift */; };
 		D0C8B3C32B8DE25800C6AE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B3C22B8DE25800C6AE30 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 		D0A3C04F2B8F85E400F88F6E /* PajisjetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PajisjetViewController.swift; sourceTree = "<group>"; };
 		D0A3C0552B8FAC9400F88F6E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		D0A3C0592B8FBAFF00F88F6E /* LendimetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendimetViewController.swift; sourceTree = "<group>"; };
+		D0A3C05B2B8FD0AE00F88F6E /* InstruksionetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstruksionetViewController.swift; sourceTree = "<group>"; };
 		D0C8B3BB2B8DE25800C6AE30 /* FirstAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C8B3BE2B8DE25800C6AE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C8B3C02B8DE25800C6AE30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				D0C8B3C02B8DE25800C6AE30 /* SceneDelegate.swift */,
 				D0C8B3C22B8DE25800C6AE30 /* ViewController.swift */,
 				D0C8B3C42B8DE25800C6AE30 /* Main.storyboard */,
+				D0A3C05B2B8FD0AE00F88F6E /* InstruksionetViewController.swift */,
 				D0A3C04F2B8F85E400F88F6E /* PajisjetViewController.swift */,
 				D0D4A3352B8E7DE100EDB5EB /* ListViewController.swift */,
 				D04715802B8E021E00408A7B /* SignupViewController.swift */,
@@ -165,6 +168,7 @@
 				D0C8B3C32B8DE25800C6AE30 /* ViewController.swift in Sources */,
 				D0A3C0502B8F85E400F88F6E /* PajisjetViewController.swift in Sources */,
 				D0C8B3BF2B8DE25800C6AE30 /* AppDelegate.swift in Sources */,
+				D0A3C05C2B8FD0AE00F88F6E /* InstruksionetViewController.swift in Sources */,
 				D04715812B8E021E00408A7B /* SignupViewController.swift in Sources */,
 				D0A3C05A2B8FBAFF00F88F6E /* LendimetViewController.swift in Sources */,
 				D04715832B8E029800408A7B /* LoginViewController.swift in Sources */,
