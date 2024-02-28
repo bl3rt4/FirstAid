@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D046DAD02B8F683F00BEC10B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046DACF2B8F683F00BEC10B /* MainViewController.swift */; };
 		D04715812B8E021E00408A7B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04715802B8E021E00408A7B /* SignupViewController.swift */; };
 		D04715832B8E029800408A7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04715822B8E029800408A7B /* LoginViewController.swift */; };
 		D04715862B8E5B5C00408A7B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D04715842B8E5B5C00408A7B /* Model.xcdatamodeld */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D046DACF2B8F683F00BEC10B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D04715802B8E021E00408A7B /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		D04715822B8E029800408A7B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D04715852B8E5B5C00408A7B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				D0C8B3C72B8DE26700C6AE30 /* Assets.xcassets */,
 				D0C8B3C92B8DE26700C6AE30 /* LaunchScreen.storyboard */,
 				D0C8B3CC2B8DE26700C6AE30 /* Info.plist */,
+				D046DACF2B8F683F00BEC10B /* MainViewController.swift */,
 			);
 			path = FirstAid;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				D0C8B3C12B8DE25800C6AE30 /* SceneDelegate.swift in Sources */,
 				D04715862B8E5B5C00408A7B /* Model.xcdatamodeld in Sources */,
 				D0D4A3362B8E7DE100EDB5EB /* ListViewController.swift in Sources */,
+				D046DAD02B8F683F00BEC10B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
