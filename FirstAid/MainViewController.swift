@@ -32,6 +32,8 @@ class MainViewController: UIViewController {
         kitButtonClicked.layer.shadowOpacity = 0.5
         kitButtonClicked.layer.shadowOffset = CGSize(width: 4, height: 4)
         kitButtonClicked.layer.shadowRadius = 5.0
+        kitButtonClicked.layer.masksToBounds = false
+        
         // Do any additional setup after loading the view.
         
         lendimetButtonClicked.layer.cornerRadius = 10

@@ -11,6 +11,8 @@
 		D04715812B8E021E00408A7B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04715802B8E021E00408A7B /* SignupViewController.swift */; };
 		D04715832B8E029800408A7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04715822B8E029800408A7B /* LoginViewController.swift */; };
 		D04715862B8E5B5C00408A7B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D04715842B8E5B5C00408A7B /* Model.xcdatamodeld */; };
+		D0A3C0502B8F85E400F88F6E /* PajisjetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3C04F2B8F85E400F88F6E /* PajisjetViewController.swift */; };
+		D0A3C0562B8FAC9400F88F6E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3C0552B8FAC9400F88F6E /* CustomTableViewCell.swift */; };
 		D0C8B3BF2B8DE25800C6AE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B3BE2B8DE25800C6AE30 /* AppDelegate.swift */; };
 		D0C8B3C12B8DE25800C6AE30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B3C02B8DE25800C6AE30 /* SceneDelegate.swift */; };
 		D0C8B3C32B8DE25800C6AE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B3C22B8DE25800C6AE30 /* ViewController.swift */; };
@@ -25,6 +27,8 @@
 		D04715802B8E021E00408A7B /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		D04715822B8E029800408A7B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D04715852B8E5B5C00408A7B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D0A3C04F2B8F85E400F88F6E /* PajisjetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PajisjetViewController.swift; sourceTree = "<group>"; };
+		D0A3C0552B8FAC9400F88F6E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		D0C8B3BB2B8DE25800C6AE30 /* FirstAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C8B3BE2B8DE25800C6AE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C8B3C02B8DE25800C6AE30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +74,7 @@
 				D0C8B3C02B8DE25800C6AE30 /* SceneDelegate.swift */,
 				D0C8B3C22B8DE25800C6AE30 /* ViewController.swift */,
 				D0C8B3C42B8DE25800C6AE30 /* Main.storyboard */,
+				D0A3C04F2B8F85E400F88F6E /* PajisjetViewController.swift */,
 				D0D4A3352B8E7DE100EDB5EB /* ListViewController.swift */,
 				D04715802B8E021E00408A7B /* SignupViewController.swift */,
 				D04715842B8E5B5C00408A7B /* Model.xcdatamodeld */,
@@ -78,6 +83,7 @@
 				D0C8B3C92B8DE26700C6AE30 /* LaunchScreen.storyboard */,
 				D0C8B3CC2B8DE26700C6AE30 /* Info.plist */,
 				D046DACF2B8F683F00BEC10B /* MainViewController.swift */,
+				D0A3C0552B8FAC9400F88F6E /* CustomTableViewCell.swift */,
 			);
 			path = FirstAid;
 			sourceTree = "<group>";
@@ -154,10 +160,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0C8B3C32B8DE25800C6AE30 /* ViewController.swift in Sources */,
+				D0A3C0502B8F85E400F88F6E /* PajisjetViewController.swift in Sources */,
 				D0C8B3BF2B8DE25800C6AE30 /* AppDelegate.swift in Sources */,
 				D04715812B8E021E00408A7B /* SignupViewController.swift in Sources */,
 				D04715832B8E029800408A7B /* LoginViewController.swift in Sources */,
 				D0C8B3C12B8DE25800C6AE30 /* SceneDelegate.swift in Sources */,
+				D0A3C0562B8FAC9400F88F6E /* CustomTableViewCell.swift in Sources */,
 				D04715862B8E5B5C00408A7B /* Model.xcdatamodeld in Sources */,
 				D0D4A3362B8E7DE100EDB5EB /* ListViewController.swift in Sources */,
 				D046DAD02B8F683F00BEC10B /* MainViewController.swift in Sources */,
