@@ -10,7 +10,6 @@ import UIKit
 
 class PajisjetViewController: UIViewController {
 
-    
     @IBOutlet weak var table1: UITableView!
     
 //    struct Pajisjet{
@@ -25,11 +24,9 @@ class PajisjetViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
 
     }
+
     
-
-
 
 }

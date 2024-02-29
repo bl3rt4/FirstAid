@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
-    <entity name="Entity1" representedClassName="Entity1" syncable="YES" codeGenerationType="class"/>
+    <entity name="Pajisjet" representedClassName="Pajisjet" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
     <entity name="UserEntity" representedClassName="UserEntity" syncable="YES" codeGenerationType="class">
         <attribute name="email" optional="YES" attributeType="String"/>
         <attribute name="firstName" optional="YES" attributeType="String"/>
@@ -10,7 +11,6 @@
     </entity>
     <elements>
         <element name="UserEntity" positionX="-63" positionY="-18" width="128" height="103"/>
-        <element name="Entity" positionX="221.2421875" positionY="-74.671875" width="128" height="43"/>
-        <element name="Entity1" positionX="245.73046875" positionY="17.78515625" width="128" height="43"/>
+        <element name="Pajisjet" positionX="-45" positionY="27" width="128" height="58"/>
     </elements>
 </model>

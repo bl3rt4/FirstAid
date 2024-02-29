@@ -10,8 +10,9 @@ import UIKit
 
 class MainViewController: UIViewController {
 
-    @IBOutlet weak var kitButtonClicked: UIButton!
     @IBOutlet weak var kitClicked: UIImageView!
+    
+    @IBOutlet weak var kitButtonClicked: UIButton!
     
     
     @IBOutlet weak var lendimetButtonClicked: UIButton!

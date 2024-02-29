@@ -33,7 +33,7 @@ class SignupViewController: UIViewController {
                    openAlert(message: "Please enter a Name")
                    return
                }
-        
+
         guard let lastName = lastNameTextField.text, !lastName.isEmpty else{
                    openAlert(message: "Please enter a Last Name")
                    return
@@ -65,7 +65,7 @@ class SignupViewController: UIViewController {
         catch{
             print("User saving error: ", error)
         }
-        
+
         
     }
 
