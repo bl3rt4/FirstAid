@@ -15,6 +15,7 @@
 		D0A3C0562B8FAC9400F88F6E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3C0552B8FAC9400F88F6E /* CustomTableViewCell.swift */; };
 		D0A3C05A2B8FBAFF00F88F6E /* LendimetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3C0592B8FBAFF00F88F6E /* LendimetViewController.swift */; };
 		D0A3C05C2B8FD0AE00F88F6E /* InstruksionetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3C05B2B8FD0AE00F88F6E /* InstruksionetViewController.swift */; };
+		D0A3C05E2B8FFB3700F88F6E /* KontaktetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3C05D2B8FFB3700F88F6E /* KontaktetViewController.swift */; };
 		D0C8B3BF2B8DE25800C6AE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B3BE2B8DE25800C6AE30 /* AppDelegate.swift */; };
 		D0C8B3C12B8DE25800C6AE30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B3C02B8DE25800C6AE30 /* SceneDelegate.swift */; };
 		D0C8B3C32B8DE25800C6AE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B3C22B8DE25800C6AE30 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 		D0A3C0552B8FAC9400F88F6E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		D0A3C0592B8FBAFF00F88F6E /* LendimetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendimetViewController.swift; sourceTree = "<group>"; };
 		D0A3C05B2B8FD0AE00F88F6E /* InstruksionetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstruksionetViewController.swift; sourceTree = "<group>"; };
+		D0A3C05D2B8FFB3700F88F6E /* KontaktetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontaktetViewController.swift; sourceTree = "<group>"; };
 		D0C8B3BB2B8DE25800C6AE30 /* FirstAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C8B3BE2B8DE25800C6AE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C8B3C02B8DE25800C6AE30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				D0C8B3C02B8DE25800C6AE30 /* SceneDelegate.swift */,
 				D0C8B3C22B8DE25800C6AE30 /* ViewController.swift */,
 				D0C8B3C42B8DE25800C6AE30 /* Main.storyboard */,
+				D0A3C05D2B8FFB3700F88F6E /* KontaktetViewController.swift */,
 				D0A3C05B2B8FD0AE00F88F6E /* InstruksionetViewController.swift */,
 				D0A3C04F2B8F85E400F88F6E /* PajisjetViewController.swift */,
 				D0D4A3352B8E7DE100EDB5EB /* ListViewController.swift */,
@@ -177,6 +180,7 @@
 				D04715862B8E5B5C00408A7B /* Model.xcdatamodeld in Sources */,
 				D0D4A3362B8E7DE100EDB5EB /* ListViewController.swift in Sources */,
 				D046DAD02B8F683F00BEC10B /* MainViewController.swift in Sources */,
+				D0A3C05E2B8FFB3700F88F6E /* KontaktetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
